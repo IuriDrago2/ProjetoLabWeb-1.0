@@ -8,5 +8,8 @@
 npm install
 ```
 -----------------------------------------------------------------
-### Atividade proposta:
+### Atividade proposta número 1:
 **Retornar a sinopse e imagem dos filmes da categoria romance, e adicionar uma nova categoria com pelo menos 2 filmes.**
+
+### Atividade proposta número 2:
+Criar uma estrutura de repetição que vai de 1 a 40, contando de 10 em 10.

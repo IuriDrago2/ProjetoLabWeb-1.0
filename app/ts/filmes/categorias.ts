@@ -1,3 +1,4 @@
+//2)Função para percorrer a lista de filmes e trazer seu conteúdo com base na categoria escolhida
 function percorrerListaInCategoria(categoria: string) {
 
     let categ: string[];
@@ -13,16 +14,12 @@ function percorrerListaInCategoria(categoria: string) {
             categ = filmes_romance;
             break;
     }
-    // ◘◘◘◘ Desabilitar o botão de Consulta ◘◘◘◘
     let butCons = document.getElementById('butConsult');
     butCons.style.marginTop = '20px';
-    // butCons.setAttribute("disabled", "true");
-    // butCons.style.backgroundColor = "#7a7a7a";
 
     let selectFilmes = <HTMLSelectElement>document.getElementById('selectFilmes');
     let formFilmes = <HTMLFormElement>document.getElementById('formFilmes');
     formFilmes.style.color = 'black';
-    // selectFilmes.setAttribute('disabled', 'false');
     var filmeOption: string;
     
 
@@ -33,6 +30,7 @@ function percorrerListaInCategoria(categoria: string) {
 
 }
 
+//5)Função para limpar os filmes exibidos na área de exibição quando escolher outra categoria
 function limparFilmesExibidos(){
     let divFilme = <HTMLSelectElement>document.getElementById('d3');
     let divSinop = <HTMLSelectElement>document.getElementById('d4');
@@ -40,6 +38,7 @@ function limparFilmesExibidos(){
     divSinop.innerHTML = "";
 }
 
+//1)Função responsavel por capturar qual categoria foi escolhida e fazer a consulta chamando outras funções
 function consulta(): void {
     let selectCategorias = <HTMLSelectElement>document.getElementById('selectCateg');
 
