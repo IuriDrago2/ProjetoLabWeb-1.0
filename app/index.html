@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="./css/cinema.css" />
+  <script src=""></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="CinemaJS.js"></script> -->
+  <script src="./js/categorias.js"></script>
+  <script src="./js/listaFilmes.js"></script>
+  <title>OPCOES DE FILMES</title>
+</head>
+
+<body>
+  <h1>Informações dos Filmes</h1>
+  <div id="tipo">
+    <form>
+      Categoria do filme:
+      <select id="selectCateg">
+        <option>Ação</option>
+        <option>Aventura</option>
+        <option>Romance</option>
+      </select>
+    </form>
+    <form style="color: rgb(163, 163, 163)" id="formFilmes">
+      Filmes:
+      <select id="selectFilmes">
+        <option></option>
+      </select>
+    </form>
+  </div>
+  <br>
+  <button id="butConsult" onclick="consulta()">CONSULTA</button>
+  <!-- <div id="d2" title="ANO LANCAMENTO"></div> -->
+  <div id="d3" title="FILME"></div>
+  <div id="d4" title="SINOPSE"></div>
+  <!-- <img id='resgate' src='https://br.web.img3.acsta.net/pictures/20/03/30/17/23/0866109.jpg' height='240px' width='490px'> -->
+</body>
+
+</html>
