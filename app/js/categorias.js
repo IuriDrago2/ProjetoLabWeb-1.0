@@ -1,3 +1,4 @@
+//2)Função para percorrer a lista de filmes e trazer seu conteúdo com base na categoria escolhida
 function percorrerListaInCategoria(categoria) {
     let categ;
     switch (categoria) {
@@ -22,12 +23,16 @@ function percorrerListaInCategoria(categoria) {
         selectFilmes.innerHTML = filmeOption;
     }
 }
+
+//5)Função para limpar os filmes exibidos na área de exibição quando escolher outra categoria
 function limparFilmesExibidos() {
     let divFilme = document.getElementById('d3');
     let divSinop = document.getElementById('d4');
     divFilme.innerHTML = "";
     divSinop.innerHTML = "";
 }
+
+//1)Função responsavel por capturar qual categoria foi escolhida e fazer a consulta chamando outras funções
 function consulta() {
     let selectCategorias = document.getElementById('selectCateg');
     if (selectCategorias.value == 'Ação') {

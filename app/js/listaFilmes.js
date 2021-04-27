@@ -1,6 +1,10 @@
+// Arrays responsaveis pelos titulos de filmes
 const filmes_acao = ["Resgate", "The Old Guard", "Mundo Duplo"];
 const filmes_aventura = ["Artemis Fowl", "Dolittle", "Mulan"];
 const filmes_romance = ["The Photograph", "Enquanto Estivermos Juntos", "A Batida Perfeita"];
+
+//3)Função responsavel por criar o botão para escolher o filme após ter consultado a categoria
+// posteriormente acionar a função de filme escolhido
 function botaoEscolherFilme() {
     let butCons = document.getElementById('butConsult');
     let butNovo = document.createElement('button');
@@ -10,6 +14,8 @@ function botaoEscolherFilme() {
     butNovo.onclick = filmeEscolhido;
     document.body.insertBefore(butNovo, butCons);
 }
+
+//4)Função responsavel por trazer os dados do filme escolhido
 function filmeEscolhido() {
     let selFilm = document.getElementById('selectFilmes');
     if (selFilm.value == 'Resgate') {
