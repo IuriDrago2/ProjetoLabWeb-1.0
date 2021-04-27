@@ -7,5 +7,6 @@
 ```
 npm install
 ```
-[build]Atividade proposta:
+-----------------------------------------------------------------
+### Atividade proposta:
 **Retornar a sinopse e imagem dos filmes da categoria romance, e adicionar uma nova categoria com pelo menos 2 filmes.**
