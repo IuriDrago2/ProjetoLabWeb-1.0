@@ -12,4 +12,4 @@ npm install
 Retornar a sinopse e imagem dos filmes da categoria romance, e adicionar uma nova categoria com pelo menos 2 filmes.
 
 ### Atividade proposta número 2:
-Criar uma estrutura de repetição que vai de 0 a 40, contando de 10 em 10.
+Criar uma classe de carro que possui algumas propriedades como roda, modelo, cor, motor, e a partir dela criar 1 carro.
