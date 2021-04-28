@@ -6,12 +6,6 @@ function funcao (): number {
     return 2+a;
 }
 
-type Veiculo = {
-    marca: Marca,
-    modelo: String,
-    numero_de_rodas: number
-}
-
 enum Marca {
     honda,
     toyota,
