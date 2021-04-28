@@ -1,3 +1,5 @@
+### Branch responsável pelos arquivos da apresentação de Vinicius.
+-----------------------------------------------------------------
 # ProjetoLabWeb-1.0
 **Projeto destinado à uma simples e didática apresentação na disciplina de Laboratório Web.**
 
@@ -7,5 +9,3 @@
 ```
 npm install
 ```
------------------------------------------------------------------
-### Branch responsável pelos arquivos da apresentação de Vinicius.
